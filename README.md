@@ -13,7 +13,23 @@ This project analyzes the quality of Microsoft Teams calls in real-time by measu
 7. [Results](#results)
 8. [Future Improvements](#future-improvements)
 9. [References](#references)
+---
 
+## Dataset
+ This repository contains data used for analyzing Microsoft Teams call quality, including packet captures (PCAPs) and visualizations. The data is organized into folders based on call quality levels, flow types, and exploratory visualizations.
+
+- **Folder Structure**
+- **Base**
+   Contains PCAP recordings categorized into various quality levels based on our data exploration. This categorization aids in understanding how different conditions impact call quality.
+
+- **FullRecording**
+   Contains complete recordings of conversations. Each conversation includes two separate PCAP files for each data flow type (audio and video), enabling focused analysis on individual streams.
+
+- **BoxPlots**
+   Includes box plots generated from simulated conversations, used to inform the quality assessment model. These plots represent packet size, packet count, and average packets per second, giving insights into network behavior and call quality     under different conditions.
+
+Access
+The dataset is available on Google Drive: Dataset Link
 ---
 
 ## Features
