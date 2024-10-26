@@ -100,13 +100,6 @@ def find_largest_streams(process, findOutgoing, findIncoming, myIp):
                     incomingDict[(src_ip, dest_ip)] += 1
                     count += 1
 
-                else:
-                    print("Error format")
-                    print(packetInfo)
-                    print(f"{src_ip} ---> {dest_ip}")
-            else:
-                print(output)
-                print("Error parsing line!")
 
     # Determine the largest streams based on packet counts
     if findIncoming and findOutgoing:
