@@ -11,9 +11,8 @@ This project analyzes the quality of Microsoft Teams calls in real-time by measu
 5. [Key Components](#key-components)
 6. [Technical Details](#technical-details)
 7. [Results](#results)
-8. [Future Improvements](#future-improvements)
-9. [References](#references)
-10. [Dataset](#Dataset)
+8. [References](#references)
+9. [Dataset](#Dataset)
 ---
 ## Features
 - **Real-Time Quality Monitoring**: Track network metrics (latency, jitter, bitrate) in real-time for ongoing calls.
